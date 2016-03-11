@@ -1,0 +1,21 @@
+#opage{margin:0;background:url(../images/red/thbkg.jpg) repeat-x top}
+#hbot{margin:0;background:url(../images/red/bhbkg.jpg) repeat-x bottom}
+body{background:#0e0202;margin:0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#fff}
+#ipage{margin:0 auto;min-width:1004px;max-width:1280px;background:url(../images/red/pt.jpg) repeat-x top}
+#ptl{background:url(../images/red/ptl.jpg) no-repeat top left}
+#ptr{background:url(../images/red/ptr.jpg) no-repeat top right}
+#pl{background:url(../images/red/pl.jpg) repeat-y left}
+#pr{background:url(../images/red/pr.jpg) repeat-y right}
+#pbl{background:url(../images/red/pbl.jpg) no-repeat bottom left}
+#pb{background:url(../images/red/pb.jpg) repeat-x bottom}
+#pbr{background:url(../images/red/pbr.jpg) no-repeat bottom right}
+#navi li a{text-align:center;display:block;width:100px;height:36px;font-size:9px;font-family:Arial;font-weight:bold;color:#fff;text-decoration:none;background:url(../images/red/button.gif) 0 3px no-repeat}
+#main-bg{line-height:1.4em;padding:0 4px;border:3px groove #e22;background:#0e0202}
+#fout{height:135px;margin:0;background:url(../images/red/fbkg.jpg) repeat-x top}
+.tt{background:url(../images/red/tt.jpg) no-repeat top right}
+a{color:#e22;text-decoration:none}
+a.side{color:#e22;background:url(../images/red/b1.gif) no-repeat left 2px;padding-left:12px}
+.button{border:0;padding:0 10px;font-size:10px;color:#e22;border:1px solid #888;background:#222}
+.st{height:27px;line-height:27px;text-align:center;font-family:Verdana, Arial;font-size:12px;font-weight:bold;color:#fff;background:url(../images/red/st.gif) no-repeat center}
+#navigation a{padding-left:20px;height:21px;line-height:21px;display:block;color:#fff;background:url(../images/red/nav.gif) no-repeat center 0;text-decoration:none}
+#navigation a:hover{color:#e22}

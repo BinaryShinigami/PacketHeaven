@@ -1,0 +1,491 @@
+/* Comment element properties */
+
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+
+}
+
+a:hover {
+	color: #00FFFF;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a.side {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover.side {
+	color: #00FFFF;
+	text-decoration: none;
+
+}
+
+a.white, li.white a {
+	color: #FF6633;
+	text-decoration: none;
+	padding: 8px;
+	border-width: 0 1px 0px 0px;
+	border-color: #292a2c;
+	border-style: solid;
+
+}
+
+a:hover.white, li.white a:hover {
+	color: #FFFF33;
+	text-decoration: none;
+	padding: 8px;
+
+
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CBCBCB;
+	background: #000;
+	margin: 10px;
+}
+
+hr {
+	height: 1px;
+	border: 1px solid #CBCBCB;
+}
+
+hr.side-hr {
+	height: 1px;
+	border: 1px solid #CBCBCB;
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+pre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.alt {
+	color: #CBCBCB;
+}
+
+.spacer {
+	margin-bottom: 10px;
+}
+
+.admin-message {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	color: #CBCBCB;
+	background-color: #292929;
+	border: 1px solid #000;
+	padding: 3px 4px 5px 4px;
+	margin-bottom: 5px;
+}
+
+/* Form element properties */
+
+form {
+	margin: 0px;
+}
+
+.button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #708400;
+	background-color: #181818;
+	height: 20px;
+	border: 1px solid #222222;
+	margin-top: 2px;
+}
+
+.bbcode {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	background-color: #eee;
+	border: 1px solid #000;
+	margin-top: 2px;
+}
+
+.textbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CBCBCB;
+	background-color: #292929;
+	border: 1px solid #000;
+}
+
+/* Header and footer properties */
+/* Header and footer properties */
+
+.sub-header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #FFF;
+	background-color: #323232;
+	background-image: url(images/sub-header.png);
+}
+
+.sub-header1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+	padding: 5px;
+	background-color: #282828;
+	background-image: url(images/down1.png);
+	background-repeat:repeat-x;
+}
+
+.border-left {
+	width:15px; background-image:url(images/border-left.png);
+	background-repeat:repeat-y; 
+}
+
+.border-right {
+	width:15px; background-image:url(images/border-right.png);
+	background-repeat:repeat-y;
+}
+
+.sub-header-left {
+	width: 3px;
+	height: 33px;
+	background-color: #323232;
+	background-image: url(images/sub-header.png);
+}
+
+.sub-header-right {
+	width: 3px;
+	height: 33px;
+	background-color: #323232;
+	background-image: url(images/sub-header.png);
+
+}
+.sub-header ul{
+	margin: 0;
+	padding: 0;
+}
+
+.sub-header ul li{
+	display: inline;
+}
+
+.sub-header ul li.first-link .bullet{
+	display: none;
+}
+
+.full-header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	background-color: #474749;
+	border: 1px solid #000;
+	padding: 5px 0 10px 0;
+}
+
+.main-footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #888;
+	background-color: #474749;
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+.bottom-footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CBCBCB;
+	background-color: #292929;
+	padding: 4px 4px 5px 4px;
+}
+
+.main-body {
+	font-size: 10px;
+	color: #CBCBCB;
+	background-color: #181818;
+	border-width: 0 1px 0 1px;
+	border-color: #1c1c1c;;
+	border-style: solid;
+	padding: 4px;
+}
+
+/* Side-Panel properties */
+
+.side-border-left {
+        background-image: url(images/left_r5.jpg);
+	color: #777;
+	background-color: #292929;
+	background-image: url(images/background.png);
+	padding: 10px 0 10px 10px;
+	width: 175px;
+}
+
+.side-border-right {
+	color: #777;
+	background-color: #292929;
+	background-image: url(images/background.png);
+	padding: 10px 10px 10px 0;
+	width: 175px;
+}
+
+.scapmain {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #323232;
+	background-image: url(images/side.png);
+  background-repeat: repeat-x;
+}
+
+.scapmain-left {
+	width: 24px;
+	height: 29px;
+	background-color: #323232;
+	background-image: url(images/side-left.png);
+}
+
+.scapmain-right {
+	width: 24px;
+	height: 29px;
+	background-color: #323232;
+	background-image: url(images/side-right.png);
+}
+
+.side-body {
+	font-size: 10px;
+	color: #CBCBCB;
+	background-color: #181818;
+	border-width: 0 1px 0 1px;
+	border-color: #1c1c1c;
+	border-style: solid;
+	padding: 10px;
+}
+
+.sideb { 	background-image: url(images/sideb.png); 	background-repeat: repeat-x; }
+
+.sideb-banner { 	background-image: url(images/banner.png); 	background-repeat: repeat-x; }
+
+/* Center-Panel properties */
+
+.news-category {
+	border: 0;
+	margin: 3px 5px 0 0;
+	float: left;
+}
+
+.news-footer {
+	font-size: 9px;
+	color: #CBCBCB;
+	background-color: #181818;
+	border-width: 0 1px 0 1px;
+	border-color: #1c1c1c;
+	border-style: solid;
+	padding: 3px 4px 0 4px;
+}
+
+.capmain {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #323232;
+	background-image: url(images/cap-main.png);
+  background-repeat: repeat-x;
+}
+
+.capmain-left {
+	width: 69px;
+	height: 26px;
+	background-color: #323232;
+	background-image: url(images/cap-left.png);
+}
+
+.capmain-right {
+	width: 69px;
+	height: 26px;
+	background-color: #323232;
+	background-image: url(images/cap-right.png);
+}
+
+.main-bg {
+	color: #fffff;
+	background-color: #292929;
+	background-image: url(images/background.png);
+	padding: 10px 10px 5px 10px;
+}
+
+/* General table properties */
+
+.center {
+	margin: 0 auto;
+}
+
+.tbl-border {
+	background-color: #00000;
+}
+
+.tbl {
+	font-size: 11px;
+	color: #CBCBCB;
+	padding: 4px;
+}
+
+.tbl1 {
+	font-size: 11px;
+	color: #CBCBCB;
+	background-color: #1a1a1a;
+	padding: 4px;
+}
+
+.tbl2 {
+	font-size: 11px;
+	color: #CBCBCB;
+	background-color: #181818;
+	padding: 4px;
+
+}
+
+.forum-caption {
+	font-size: 11px;
+	font-weight: bold;
+	color: #181818;
+	background-color: #899c28;
+	padding: 5px 4px 5px 4px;
+}
+
+.quote {
+	font-size: 11px;
+	color: #CBCBCB;
+	background-color: #292929;
+	padding: 4px;
+	margin: 0px 20px 0px 20px;
+	border: 1px solid #000;
+}
+
+.poll {
+	height: 12px;
+	border: 1px solid #000;
+}
+
+.comment-name {
+	font-weight: bold;
+	color: #CBCBCB;
+}
+
+.shoutboxname {
+	font-weight: bold;
+	color: #888;
+}
+
+.shoutbox {
+	color: #CBCBCB;
+}
+
+.shoutboxdate {
+	font-size: 8px;
+	color: #888;
+}
+
+.small {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.small2 {
+	font-size: 10px;
+	font-weight: normal;
+	color: #CBCBCB;
+}
+
+.side-small {
+	font-size: 10px;
+	font-weight: normal;
+	color: #CBCBCB;
+}
+
+.side-label {
+	color: #CBCBCB;
+	margin: 2px 0 2px 0;
+	padding: 2px 2px 3px 2px;
+}
+
+/* Vertical Navigation */
+
+#navigation h2 {
+	font-size: 10px;
+	font-weight: normal;
+	background-color: #292929;
+	margin: 0;
+	padding: 4px;
+}
+	
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+* html #navigation ul li{
+   height: 1%;
+}
+
+#navigation a {
+	display: block;
+	color: #CBCBCB;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #CBCBCB;
+	background-color: #292929;
+}
+
+/* Page Navigation */
+
+.pagenav {
+	padding: 4px;
+}
+
+.pagenav span {
+	color: #CBCBCB;
+	background-color: #292929;
+	border: 1px solid #000;
+	padding: 2px 4px 2px 4px;
+	margin: 2px;
+}
+
+.pagenav a {
+	color: #CBCBCB;
+	background-color: #292929;
+	border: 1px solid #000;
+	padding: 2px 4px 2px 4px;
+	margin: 2px;
+	text-decoration: none;
+}
+
+.pagenav a:hover {
+	color: #CBCBCB;
+	background-color: #292929;
+	margin: 2px;
+	text-decoration: none;
+}
+
+/* Helpers */
+img { border: 0; }
+/* TinyMCE specific rules */
+body.mceContentBody { background: #FFF; color: #000; }
+.mceContentBody a { color: blue !important; /* FX requires a important here */ }

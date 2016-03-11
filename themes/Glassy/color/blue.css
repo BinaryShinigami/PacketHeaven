@@ -1,0 +1,21 @@
+#opage{margin:0;background:url(../images/blue/thbkg.jpg) repeat-x top}
+#hbot{margin:0;background:url(../images/blue/bhbkg.jpg) repeat-x bottom}
+body{background:#040c0e;margin:0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#fff}
+#ipage{margin:0 auto;min-width:1004px;max-width:1280px;background:url(../images/blue/pt.jpg) repeat-x top}
+#ptl{background:url(../images/blue/ptl.jpg) no-repeat top left}
+#ptr{background:url(../images/blue/ptr.jpg) no-repeat top right}
+#pl{background:url(../images/blue/pl.jpg) repeat-y left}
+#pr{background:url(../images/blue/pr.jpg) repeat-y right}
+#pbl{background:url(../images/blue/pbl.jpg) no-repeat bottom left}
+#pb{background:url(../images/blue/pb.jpg) repeat-x bottom}
+#pbr{background:url(../images/blue/pbr.jpg) no-repeat bottom right}
+#navi li a{text-align:center;display:block;width:100px;height:36px;font-size:9px;font-family:Arial;font-weight:bold;color:#fff;text-decoration:none;background:url(../images/blue/button.gif) 0 3px no-repeat}
+#main-bg{line-height:1.4em;padding:0 4px;border:3px groove #2ab;background:#040c0e}
+#fout{height:135px;margin:0;background:url(../images/blue/fbkg.jpg) repeat-x top}
+.tt{background:url(../images/blue/tt.jpg) no-repeat top right}
+a{color:#2ab;text-decoration:none}
+a.side{color:#2ab;background:url(../images/blue/b1.gif) no-repeat left 2px}
+.button{border:0;padding:0 10px;font-size:10px;color:#2ab;border:1px solid #888;background:#222}
+.st{height:27px;line-height:27px;text-align:center;font-family:Verdana, Arial;font-size:12px;font-weight:bold;color:#fff;background:url(../images/blue/st.gif) no-repeat center}
+#navigation a{padding-left:20px;height:21px;line-height:21px;display:block;color:#fff;background:url(../images/blue/nav.gif) no-repeat center 0;text-decoration:none}
+#navigation a:hover{color:#2ab}

@@ -1,0 +1,21 @@
+#opage{margin:0;background:url(../images/gold/thbkg.jpg) repeat-x top}
+#hbot{margin:0;background:url(../images/gold/bhbkg.jpg) repeat-x bottom}
+body{background:#100e01;margin:0;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#fff}
+#ipage{margin:0 auto;min-width:1004px;max-width:1280px;background:url(../images/gold/pt.jpg) repeat-x top}
+#ptl{background:url(../images/gold/ptl.jpg) no-repeat top left}
+#ptr{background:url(../images/gold/ptr.jpg) no-repeat top right}
+#pl{background:url(../images/gold/pl.jpg) repeat-y left}
+#pr{background:url(../images/gold/pr.jpg) repeat-y right}
+#pbl{background:url(../images/gold/pbl.jpg) no-repeat bottom left}
+#pb{background:url(../images/gold/pb.jpg) repeat-x bottom}
+#pbr{background:url(../images/gold/pbr.jpg) no-repeat bottom right}
+#navi li a{text-align:center;display:block;width:100px;height:36px;font-size:9px;font-family:Arial;font-weight:bold;color:#fff;text-decoration:none;background:url(../images/gold/button.gif) 0 3px no-repeat}
+#main-bg{line-height:1.4em;padding:0 4px;border:3px groove #cb0;background:#100e01}
+#fout{height:135px;margin:0;background:url(../images/gold/fbkg.jpg) repeat-x top}
+.tt{background:url(../images/gold/tt.jpg) no-repeat top right}
+a{color:#cb0;text-decoration:none}
+a.side{color:#cb0;background:url(../images/gold/b1.gif) no-repeat left 2px;padding-left:12px}
+.button{border:0;padding:0 10px;font-size:10px;color:#cb0;border:1px solid #888;background:#222}
+.st{height:27px;line-height:27px;text-align:center;font-family:Verdana, Arial;font-size:12px;font-weight:bold;color:#fff;background:url(../images/gold/st.gif) no-repeat center}
+#navigation a{padding-left:20px;height:21px;line-height:21px;display:block;color:#fff;background:url(../images/gold/nav.gif) no-repeat center 0;text-decoration:none}
+#navigation a:hover{color:#cb0}
