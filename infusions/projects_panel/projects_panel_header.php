@@ -1,4 +1,5 @@
 <?php
+if ($_SERVER['PHP_SELF'] == '/blog.php') {
 add_to_head('
 <script type="text/javascript" src="'.INFUSIONS.'projects_panel/js/jquery.waterwheelCarousel.min.js"></script>
 <script type="text/javascript">
@@ -34,5 +35,10 @@ add_to_head('
       }
 </style>
         ');
+}
+else 
+{
+    add_to_head('<!-- ' . $_SERVER['PHP_SELF'] . ' -->');
+}
 
 /* End of projects_panel_header.php */

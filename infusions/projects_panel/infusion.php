@@ -48,13 +48,13 @@ proj_desc VARCHAR(100) DEFAULT '' NOT NULL,
 PRIMARY KEY (proj_id)
 ) TYPE=MyISAM;";
 
-$inf_insertdbrow[1] = DB_INFUSION_TABLE." (proj_id, proj_img, proj_link, proj_desc) VALUES('', '', '', '')";
+//$inf_insertdbrow[1] = DB_INFUSION_TABLE." (proj_id, proj_img, proj_link, proj_desc) VALUES('', '', '', '')";
 
 $inf_droptable[1] = DB_INFUSION_TABLE;
 
 $inf_adminpanel[1] = array(
-	"title" => $locale['xxx_admin1'],
-	"image" => "image.gif",
+	"title" => "Projects Carousel",
+	"image" => "edit.png",
 	"panel" => "projects_panel_admin.php",
 	"rights" => "S"
 );

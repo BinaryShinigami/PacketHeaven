@@ -31,12 +31,22 @@ if (file_exists(INFUSIONS."projects_panel/locale/".$settings['locale'].".php")) 
 
 opentable("Featured Projects");
 echo '<center>
-        <div id="carousel">
-          <a href="http://packetheaven.net/viewpage.php?page_id=2"><img src="/images/projects/Control_Center_Screen_Shot.png" id="item-1" width="300px" /></a>
+        <div id="carousel">';
+
+$projects = get_projects_info();
+
+if (count($projects) <= 0) {
+    echo '<a href="http://packetheaven.net/viewpage.php?page_id=2"><img src="/images/projects/Control_Center_Screen_Shot.png" id="item-1" width="300px" /></a>
           <a href="http://packetheaven.net/viewpage.php?page_id=2"><img src="/images/projects/Lagune_Mail.png" id="item-2" width="300px" /></a>
           <a href="http://packetheaven.net/viewpage.php?page_id=2"><img src="/images/projects/Control_Center_Screen_Shot.png" id="item-1" width="300px" /></a
-          <a href="http://packetheaven.net/viewpage.php?page_id=2"><img src="/images/projects/Lagune_Mail.png" id="item-2" width="300px" /></a>
-        </div>
+          <a href="http://packetheaven.net/viewpage.php?page_id=2"><img src="/images/projects/Lagune_Mail.png" id="item-2" width="300px" /></a>';
+}
+else {
+    foreach($projects as $proj) {
+        echo '<a href="' . $proj['proj_link'] . '"><img src="' . $proj['proj_img'] .'" width="300px" alt="' . $proj['proj_desc'] .'" /></a>';
+    }
+}
+echo '</div>         
         <a href="#" id="prev">Prev</a> | <a href="#" id="next">Next</a>
     </center>';
 closetable();
